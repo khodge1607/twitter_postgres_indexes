@@ -16,3 +16,5 @@ FROM (
 GROUP BY (1)
 ORDER BY count DESC,tag
 LIMIT 1000;
+
+/* this index already created for last query works - CREATE INDEX ON tweet_tags(tag_id)*/

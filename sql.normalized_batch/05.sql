@@ -18,4 +18,4 @@ ORDER BY count DESC,tag
 LIMIT 1000
 ;
 
-
+-- might already be covered with the right indexes? 
